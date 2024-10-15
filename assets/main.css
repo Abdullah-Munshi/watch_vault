@@ -41,7 +41,7 @@ img {
 .cs_container {
   padding-left: 16px;
   padding-right: 16px;
-  max-width: 768px;
+  max-width: 767px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -141,7 +141,7 @@ header {
   text-decoration: none;
   transition: 0.3s;
   justify-content: center;
-  font-family:Arial;
+  font-family: Arial;
 }
 .follow-btn:hover {
   background: #3b526a;
@@ -165,7 +165,7 @@ header {
   margin-right: 4px;
 }
 .trusted {
-  font-size:11px;
+  font-size: 11px;
 }
 .h5 {
   font-weight: 500;
@@ -191,4 +191,38 @@ footer {
   font-size: 16px;
   margin-bottom: 5px;
 }
+.max-md {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* footer css end */
+
+/* responsive css start */
+@media screen and (min-width: 768px) {
+  .cs_container {
+    max-width: 1180px;
+  }
+  header {
+    padding: 24px 0;
+    min-height: 95px;
+  }
+  .hero-area h1 {
+    font-size: 34px;
+  }
+  p {
+    font-size: 17px;
+  }
+  .hero-area {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 20px;
+  }
+  .footer-content h6 {
+    font-size: 18px;
+  }
+  .trusted {
+    font-size: 13px;
+  }
+}
+/* responsive css end */
