@@ -166,6 +166,8 @@ header {
 }
 .trusted {
   font-size: 11px;
+  display: block;
+  line-height: 1.7;
 }
 .h5 {
   font-weight: 500;
@@ -208,10 +210,10 @@ footer {
     min-height: 95px;
   }
   .hero-area h1 {
-    font-size: 34px;
+    font-size: 40px;
   }
   p {
-    font-size: 17px;
+    font-size: 20px;
   }
   .hero-area {
     text-align: center;
@@ -219,10 +221,24 @@ footer {
     padding-bottom: 20px;
   }
   .footer-content h6 {
-    font-size: 18px;
+    font-size: 22px;
   }
   .trusted {
-    font-size: 13px;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .follower .follow-btn {
+    font-size: 16px;
+  }
+  .follower .count {
+    font-size: 16px;
+  }
+  .h5 {
+    font-size: 20px;
+  }
+  .box-btn {
+    font-size: 20px;
   }
 }
+
 /* responsive css end */
